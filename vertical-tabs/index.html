@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vertical tabs</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="tab">
+      <button class="tablinks" onclick="openCity(event,'London')" id="defaultOpen">
+        London
+      </button>
+      <button class="tablinks" onclick="openCity(event,'Paris')">Paris</button>
+      <button class="tablinks" onclick="openCity(event,'Rome')">Rome</button>
+      <button class="tablinks" onclick="openCity(event,'Dhaka')">Dhaka</button>
+    </div>
+
+    <div id="London" class="tabcontent">
+      <h3>London</h3>
+      <p>London is the capital of England</p>
+    </div>
+    <div id="Paris" class="tabcontent">
+      <h3>Paris</h3>
+      <p>Paris is the capital of France</p>
+    </div>
+    <div id="Rome" class="tabcontent">
+      <h3>Rome</h3>
+      <p>Rome is the capital of Italy</p>
+    </div>
+    <div id="Dhaka" class="tabcontent">
+      <h3>Dhaka</h3>
+      <p>Dhaka is the capital of Bangladesh</p>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
