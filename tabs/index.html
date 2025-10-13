@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic Tabs is here....</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="tab">
+      <button class="tablinks" onclick="opencity(event,'London')" id="defaultOpen">
+        London
+      </button>
+      <button class="tablinks" onclick="opencity(event,'Paris')">Paris</button>
+      <button class="tablinks" onclick="opencity(event,'Tokyo')">Tokyo</button>
+      <button class="tablinks" onclick="opencity(event,'Dhaka')">Dhaka</button>
+      <button class="tablinks" onclick="opencity(event,'Rome')">Rome</button>
+    </div>
+
+    <div id="London" class="tabcontent">
+      <h3>London</h3>
+      <p>London is the capital city of England</p>
+    </div>
+
+    <div id="Paris" class="tabcontent">
+      <h3>Paris</h3>
+      <p>Paris is the capital city of France</p>
+    </div>
+    <div id="Tokyo" class="tabcontent">
+      <h3>Tokyo</h3>
+      <p>Tokyo is the capital city of Japan</p>
+    </div>
+    <div id="Dhaka" class="tabcontent">
+      <h3>Dhaka</h3>
+      <p>Dhaka is the capital city of Bangladesh</p>
+    </div>
+    <div id="Rome" class="tabcontent">
+      <h3>Rome</h3>
+      <p>Rome is the capital city of Italy</p>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
